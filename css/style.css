@@ -1,24 +1,55 @@
 .bg-blur {
-    /* The image used */
-    background-image: url("photographer.jpg");
-  
-    /* Add the blur effect */
-    filter: blur(8px);
-    -webkit-filter: blur(3px) brightness(30%);
-  
-    /* Full height */
-    height: 100%;
-  
-    /* Center and scale the image nicely */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  /* The image used */
+  background-image: url("photographer.jpg");
+
+  /* Add the blur effect */
+  filter: blur(8px);
+  -webkit-filter: blur(3px) brightness(30%);
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* #carouselCustomerExperience .blockquote{
+    padding: 0 10%;
+  } */
+
+#accordion-faq .accordion-body {
+  padding: 30px 30px;
+}
+
+@media(max-width:1200px) {
+  .carousel .carousel-inner {
+    height: 500px
   }
 
-  #carouselCustomerExperience .blockquote{
-    padding: 0 200px;
+  .page-intro-image{
+    max-height: 400px;
+    object-fit: cover;
+    width: 100%;
   }
 
-  #accordion-faq .accordion-body{
-    padding: 30px 30px;
+}
+
+.bd-placeholder-img{
+  object-fit: cover;
+}
+
+.page-intro-image{
+  max-height: 600px;
+  object-fit: cover;
+  width: 100%;
+}
+
+@media(max-width:765px) {
+  .feature-text{
+    margin-top: -50px;
+    backdrop-filter: blur(5px);
+    background-color: rgba(255, 255, 255, 0.3);
   }
+}
