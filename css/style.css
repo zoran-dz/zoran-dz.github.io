@@ -1,3 +1,16 @@
+html {
+  height: 100%;
+}
+body {
+  min-height: 100%;
+  padding: 0px !important;
+  margin: 0px !important;
+}
+
+main {
+  min-height: 100%;
+}
+
 .bg-blur {
   /* Add the blur effect */
   filter: blur(8px);
@@ -79,3 +92,9 @@
     color: #004ecb !important;
     filter: opacity(0.5);
 }
+
+/* .footer-custom {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+} */
